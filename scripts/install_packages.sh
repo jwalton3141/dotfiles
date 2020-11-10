@@ -23,4 +23,16 @@ then
     sudo dpkg -i slack.deb
     # https://unix.stackexchange.com/a/159114
     sudo apt-get install -f
+    rm slack.deb
+fi
+
+
+if ! type zoom > /dev/null
+then
+    wget -O zoom.deb \
+        https://d11yldzmag5yn.cloudfront.net/prod/5.4.53391.1108/zoom_amd64.deb
+    sudo dpkg -i zoom.deb
+    # https://unix.stackexchange.com/a/159114
+    sudo apt-get install -f
+    rm zoom.deb
 fi
