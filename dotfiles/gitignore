@@ -1,0 +1,8 @@
+.bash_history
+
+# Globally ignore vim temporary files
+*.swp
+*.swo
+
+# Don't think I ever want a pycache in git
+__pycache__/

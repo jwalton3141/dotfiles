@@ -1,0 +1,7 @@
+! https://wiki.archlinux.org/index.php/HiDPI
+! https://wiki.archlinux.org/index.php/x_resources
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.hintstyle: hintfull
+Xft.dpi:       192

@@ -1,0 +1,3 @@
+# https://wiki.archlinux.org/index.php/HiDPI
+# https://wiki.archlinux.org/index.php/x_resources
+xrdb -merge ~/.Xresources

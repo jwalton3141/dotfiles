@@ -1,0 +1,4 @@
+$pdf_previewer = 'start evince';
+$pdf_mode = 1;
+$pdflatex = 'pdflatex --shell-escape %O %S';
+$clean_ext = "bbl run.xml synctex.gz .fls";

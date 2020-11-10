@@ -1,0 +1,12 @@
+# I don't want to see __pycache__
+alias tree="tree -I '__pycache__'"
+
+alias top="htop"
+
+# Default to pyton3
+alias pip="pip3"
+alias python="python3"
+
+alias ipython="ipython --no-banner --no-confirm-exit"
+
+alias r="radian"

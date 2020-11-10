@@ -1,0 +1,11 @@
+export PATH=$PATH:$HOME/Documents/system/scripts:$HOME/.gem/ruby/2.5.0/bin
+
+# Don't show python virutalenv
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+# Activate virtual env
+if [ -f "$HOME/Documents/mypy/bin/activate" ]; then
+    source $HOME/Documents/mypy/bin/activate
+fi
+
+# https://github.com/pypa/pip/issues/7883#issuecomment-643319919
+export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring

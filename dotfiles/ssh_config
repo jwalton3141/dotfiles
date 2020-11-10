@@ -1,0 +1,27 @@
+# ssh config settings
+
+AddKeysToAgent yes
+
+Host havelock
+	HostName linux.mas.ncl.ac.uk
+
+Host flegere
+	ProxyJump havelock
+
+Host gitlab 
+	HostName mas-gitlab.ncl.ac.uk
+	User git
+
+Host github
+	Hostname github.com
+	User git
+
+Host pi
+    HostName raspberrypi.local
+    User pi
+
+# Default values for all
+Host *
+	User b2003864
+	ServerAliveInterval 15
+	ServerAliveCountMax 3
