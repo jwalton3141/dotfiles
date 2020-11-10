@@ -1,6 +1,6 @@
 This repo aims to provision a light, performant and keyboard driven Ubuntu configuration that *just work*s.
 
-![example desktop](https://raw.githubusercontent.com/jwalton3141/dotfiles/laptop/example-1.png)
+![example desktop](https://raw.githubusercontent.com/jwalton3141/dotfiles/main/example-1.png)
 
 ## What's provisioned?
 
