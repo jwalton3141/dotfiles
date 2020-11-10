@@ -27,6 +27,7 @@ then
 fi
 
 
+# Install zoom
 if ! type zoom > /dev/null
 then
     wget -O zoom.deb \
@@ -35,4 +36,15 @@ then
     # https://unix.stackexchange.com/a/159114
     sudo apt-get install -f
     rm zoom.deb
+fi
+
+# Install rstudio
+if ! type rstudio > /dev/null
+then
+    wget -O rstudio.deb \
+        https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.3.1093-amd64.deb
+    sudo dpkg -i rstudio.deb
+    # https://unix.stackexchange.com/a/159114
+    sudo apt-get install -f
+    rm rstudio.deb
 fi
