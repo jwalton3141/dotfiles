@@ -1,1 +1,1 @@
-xrandr --output DP-1 --primary --left-of eDP-1
+xrandr --dpi 276 --output eDP-1 --mode 3840x2400 --output DP-3  --scale 2x2 --pos 3840x0
