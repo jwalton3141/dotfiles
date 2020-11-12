@@ -43,5 +43,5 @@ cp $HOME/.dotfiles/ssh_config $HOME/.ssh/config
 
 # i3 set-up
 mkdir -p $HOME/.config/i3
-ln -sf $DOT_DIR/i3_config $HOME/.config/i3/config
+ln -sf $HOME/.dotfiles/i3_config $HOME/.config/i3/config
 
