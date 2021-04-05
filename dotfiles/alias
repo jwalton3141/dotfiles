@@ -6,7 +6,5 @@ alias top="htop"
 # Default to pyton3
 alias pip="pip3"
 alias python="python3"
-
+# Quiet ipython
 alias ipython="ipython --no-banner --no-confirm-exit"
-
-alias r="radian"
