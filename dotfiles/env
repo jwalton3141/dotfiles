@@ -1,4 +1,4 @@
-export PATH=$PATH:$HOME/Documents/system/scripts:$HOME/.gem/ruby/2.5.0/bin
+export PATH=$PATH:$HOME/.gem/ruby/2.5.0/bin
 
 # Don't show python virutalenv
 export VIRTUAL_ENV_DISABLE_PROMPT=1
